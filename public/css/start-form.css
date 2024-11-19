@@ -1,0 +1,7 @@
+#start-form input , #start-form button {
+    font-size: 3rem;
+    background-color: transparent;
+    color: orange;
+    border: 2px solid orange;
+    margin-bottom: 2rem;
+}
