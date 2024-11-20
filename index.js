@@ -20,6 +20,11 @@ app.get("/", (req, res) => {
 app.get("/c", (req, res) => {
     res.sendFile(path_front("/components/console.html"))
 })
+
+app.get("/r", (req, res) => {
+    res.sendFile(path_front("/components/player.html"))
+})
+
 app.post("/proyect", (req, res) => load_proyect_middle(req, res))
 
 

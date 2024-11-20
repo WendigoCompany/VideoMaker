@@ -1,0 +1,109 @@
+.console-cont {
+    width: 100%;
+    background-color: #6d6d6d49;
+    height: 83vh;
+    margin-top: 5%;
+    overflow: auto;
+    /* Muestra las barras de desplazamiento solo cuando sea necesario */
+
+}
+
+
+.cinta-creat svg {
+    fill: rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+.cinta-creat button {
+
+    background-color: #00d9ffa6;
+    padding: 0px 5px 0px 5px;
+    transition: background-color .3s;
+
+}
+
+
+.cinta-creat button:hover {
+
+    background-color: #00d9ff;
+}
+
+
+.cinta {
+    width: fit-content;
+    display: block !important;
+    height: 125px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+
+
+
+.dow-cinta {
+    height: 100px;
+    background-color: #00d9ff;
+    white-space: nowrap;
+    /* Evita que los elementos se partan a la siguiente línea */
+}
+
+.upp-cinta {
+    height: 25px;
+    white-space: nowrap;
+    background-color: peru;
+}
+
+.cinta-it-img {
+
+
+    height: 90px;
+    width: 100px;
+    margin: 0% 10px;
+    background-color: black;
+}
+
+
+.cinta-it-tran {
+    display: inline-block;
+    height: 40px;
+    background-color: rgb(146, 146, 146);
+    width: 40px;
+    position: relative;
+    top: -30px;
+}
+
+.cinta-it-img-control svg {
+    height: 90px;
+    width: 100px;
+    opacity: .5;
+
+}
+
+.cinta-inl {
+    display: inline-block !important;
+}
+
+.cinta-it-timer {
+    width: calc(100px +  7px);
+    text-align: center;
+      font-size: 14px;
+      font-weight: 900;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+
+}
+
+.cinta-it-timer-trans {
+    width: calc(40px +  7px);
+    text-align: center;
+      font-size: 14px;
+      font-weight: 900;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+  
+}
